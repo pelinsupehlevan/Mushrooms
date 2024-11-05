@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">Mushrooms</string>
+    <string name="mushrooms">✧･ﾟ: *✧･ﾟ:* Mushrooms ✧･ﾟ: *✧･ﾟ:*</string>
+    <string-array name="mushroom_name">
+        <item>Amethyst Deceiver</item>
+        <item>Anemone Stinkhorn</item>
+        <item>Blue Pinkgill</item>
+        <item>Fly Agaric</item>
+        <item>Indigo Milk Cap</item>
+        <item>Mauve Parachute</item>
+        <item>Purple Jellydisc</item>
+        <item>Red Cage</item>
+        <item>Violet Coral</item>
+        <item>Wrinkled Peach</item>
+    </string-array>
+
+    <string-array name="species">
+        <item>✧･ﾟ: *✧･ﾟ:* Scientific Name : Laccaria amethystina</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Scientific Name : Aseroe rubra</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Scientific Name : Entoloma hochstetteri</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Scientific Name : Amanita muscaria</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Scientific Name : Lactarius indigo</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Scientific Name : Marasmius haematocephalus</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Scientific Name : Ascocoryne sarcoides</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Scientific Name : Clathrus ruber</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Scientific Name : Clavaria zollingeri</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Scientific Name : Rhodotus palmatus</item>
+    </string-array>
+
+    <string-array name="division">
+        <item>✧･ﾟ: *✧･ﾟ:* Division : Basidiomycota</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Division : Basidiomycota</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Division : Basidiomycota</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Division : Basidiomycota</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Division : Basidiomycota</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Division : Basidiomycota</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Division : Ascomycota</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Division : Basidiomycota</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Division : Basidiomycota</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Division : Basidiomycota</item>
+
+    </string-array>
+
+    <string-array name="class_name">
+        <item>✧･ﾟ: *✧･ﾟ:* Class : Agaricomycetes</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Class : Agaricomycetes</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Class : Agaricomycetes</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Class : Agaricomycetes</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Class : Agaricomycetes</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Class : Agaricomycetes</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Class : Leotiomycetes</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Class : Agaricomycetes</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Class : Agaricomycetes</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Class : Agaricomycetes</item>
+    </string-array>
+
+    <string-array name="order">
+        <item>✧･ﾟ: *✧･ﾟ:* Order : Agaricales</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Order : Phallales</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Order : Agaricales</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Order : Agaricales</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Order : Russulales</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Order : Agaricales</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Order : Helotiales</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Order : Phallales</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Order : Agaricales</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Order : Agaricales</item>
+    </string-array>
+
+    <string-array name="family">
+        <item>✧･ﾟ: *✧･ﾟ:* Family : Hydnangiaceae</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Family : Phallaceae</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Family : Entolomataceae</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Family : Amanitaceae</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Family : Russulaceae</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Family : Marasmiaceae</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Family : Helotiaceae</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Family : Phallaceae</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Family : Clavariaceae</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Family : Physalacriaceae</item>
+    </string-array>
+
+    <string-array name="genus">
+        <item>✧･ﾟ: *✧･ﾟ:* Genus : Laccaria</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Genus : Aseroe</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Genus : Entoloma</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Genus : Amanita</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Genus : Lactarius</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Genus : Marasmius</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Genus : Ascocoryne</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Genus : Clathrus</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Genus : Clavaria</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Genus : Rhodotus</item>
+    </string-array>
+
+    <string-array name="other_names">
+        <item>✧･ﾟ: *✧･ﾟ:* Also Known As : Amethyst Laccaria</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Also Known As : Sea Anemone Fungus and Starfish Fungus</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Also Known As : Sky-Blue Mushroom</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Also Known As : Fly Amanita</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Also Known As : Indigo Milky, Indigo Lactarius, Blue Lactarius and Blue Milk Mushroom</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Also Known As : Purple Pinwheel</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Also Known As : Jelly Drops</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Also Known As : Latticed Stinkhorn, Basket Stinkhorn</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Also Known As : Magenta Coral</item>
+        <item>✧･ﾟ: *✧･ﾟ:* Also Known As : Netted Rhodotus and Rosy Veincap</item>
+    </string-array>
+
+<!--    <string-array name="beautiful">
+        <item>Yes! ✧･ﾟ: *✧･ﾟ:*</item>
+        <item>Yes! ✧･ﾟ: *✧･ﾟ:*</item>
+        <item>Yes! ✧･ﾟ: *✧･ﾟ:*</item>
+        <item>Yes! ✧･ﾟ: *✧･ﾟ:*</item>
+        <item>Yes! ✧･ﾟ: *✧･ﾟ:*</item>
+        <item>Yes! ✧･ﾟ: *✧･ﾟ:*</item>
+        <item>Yes! ✧･ﾟ: *✧･ﾟ:*</item>
+        <item>Yes! ✧･ﾟ: *✧･ﾟ:*</item>
+        <item>Yes! ✧･ﾟ: *✧･ﾟ:*</item>
+        <item>Yes! ✧･ﾟ: *✧･ﾟ:*</item>
+    </string-array>-->
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/mushroom_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/amethyst_deceiver" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/mushroom_image2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="4dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mushroom_image"
+        tools:src="@drawable/amethyst_deceiver_2" />
+
+    <TextView
+        android:id="@+id/mushroom_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mushroom_image2"
+        tools:text="Amethyst Deceiver" />
+
+    <TextView
+        android:id="@+id/species"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAlignment="inherit"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mushroom_name"
+        tools:text="✧･ﾟ: *✧･ﾟ:* Scientific Name : Laccaria amethystina" />
+
+    <TextView
+        android:id="@+id/division"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAlignment="inherit"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/species"
+        tools:text="✧･ﾟ: *✧･ﾟ:* Division : Basidiomycota" />
+
+    <TextView
+        android:id="@+id/class_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAlignment="inherit"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/division"
+        tools:text="✧･ﾟ: *✧･ﾟ:* Class : Agaricomycetes" />
+
+    <TextView
+        android:id="@+id/order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAlignment="inherit"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/class_name"
+        tools:text="✧･ﾟ: *✧･ﾟ:* Order : Agaricales" />
+
+    <TextView
+        android:id="@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAlignment="inherit"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/order"
+        tools:text="✧･ﾟ: *✧･ﾟ:* Family : Hydnangiaceae" />
+
+    <TextView
+        android:id="@+id/genus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAlignment="inherit"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/family"
+        tools:text="✧･ﾟ: *✧･ﾟ:* Genus : Laccaria" />
+
+    <TextView
+        android:id="@+id/other_names"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAlignment="inherit"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/genus"
+        tools:text="✧･ﾟ: *✧･ﾟ:* Also Known As : Amethyst Laccaria" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
