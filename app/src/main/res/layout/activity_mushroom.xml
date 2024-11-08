@@ -3,7 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#D8BFE9"
+    android:backgroundTint="#BE98D9">
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/mushroom_image"
@@ -35,8 +37,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:background="@color/white"
         android:textAlignment="center"
+        android:textColor="#FF000000"
         android:textSize="23sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,6 +53,7 @@
         android:textAlignment="inherit"
         android:textSize="16sp"
         android:textStyle="italic"
+        android:textColor="#FF000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/mushroom_name"
         tools:text="✧･ﾟ: *✧･ﾟ:* Scientific Name : Laccaria amethystina" />
@@ -63,6 +66,7 @@
         android:textAlignment="inherit"
         android:textSize="16sp"
         android:textStyle="italic"
+        android:textColor="#FF000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/species"
         tools:text="✧･ﾟ: *✧･ﾟ:* Division : Basidiomycota" />
@@ -75,6 +79,7 @@
         android:textAlignment="inherit"
         android:textSize="16sp"
         android:textStyle="italic"
+        android:textColor="#FF000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/division"
         tools:text="✧･ﾟ: *✧･ﾟ:* Class : Agaricomycetes" />
@@ -87,6 +92,7 @@
         android:textAlignment="inherit"
         android:textSize="16sp"
         android:textStyle="italic"
+        android:textColor="#FF000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/class_name"
         tools:text="✧･ﾟ: *✧･ﾟ:* Order : Agaricales" />
@@ -98,6 +104,7 @@
         android:layout_marginTop="8dp"
         android:textAlignment="inherit"
         android:textSize="16sp"
+        android:textColor="#FF000000"
         android:textStyle="italic"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/order"
@@ -111,6 +118,7 @@
         android:textAlignment="inherit"
         android:textSize="16sp"
         android:textStyle="italic"
+        android:textColor="#FF000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/family"
         tools:text="✧･ﾟ: *✧･ﾟ:* Genus : Laccaria" />
@@ -121,6 +129,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:textAlignment="inherit"
+        android:textColor="#FF000000"
         android:textSize="16sp"
         android:textStyle="italic"
         app:layout_constraintStart_toStartOf="parent"

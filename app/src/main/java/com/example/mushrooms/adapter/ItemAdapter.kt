@@ -28,8 +28,6 @@ class ItemAdapter(private val context : Context, private val mushroomsList : Lis
     }
 
 
-
-
     class ItemViewHolder(private val view: View, listener: onItemClickListener) : RecyclerView.ViewHolder(view) {
         val imageView: ImageView = view.findViewById(R.id.mushroom_image)
         //val imageView2: ImageView = view.findViewById(R.id.mushroom_image2)
